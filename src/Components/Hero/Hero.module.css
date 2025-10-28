@@ -1,0 +1,76 @@
+
+.StartBootstrap{
+    background-color:rgb(26, 188, 156);
+    width: 100%;
+    height:650px;
+    display:flex;
+    flex-direction:column;
+   justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.StartBootstrap img{
+    margin: 0 0 48px;
+    width:350px;
+    height:300px;
+}
+.StartBootstrap h1{
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    text-transform: uppercase;
+    color: white;
+    font-size: 64px;
+    font-weight:700;
+}
+.StartBootstrap p{
+    color: white;
+    font-size: 20px;
+}
+
+
+@media (max-width:745px) {
+  .StartBootstrap h1{
+
+    font-size:45px;
+
+}
+
+.StartBootstrap p{
+    
+    font-size: 15px;
+}
+.StartBootstrap img{
+       width:240px;
+    height:255px;
+}
+}
+
+@media (max-width:490px) {
+  .StartBootstrap h1{
+
+    font-size:35px;
+
+}
+
+
+
+}
+
+@media (max-width:445px) {
+  .StartBootstrap h1{
+
+    font-size:30px;
+
+}
+
+.StartBootstrap p{
+    
+    font-size: 15px;
+}
+.StartBootstrap img{
+       width:240px;
+    height:255px;
+}
+}
+
