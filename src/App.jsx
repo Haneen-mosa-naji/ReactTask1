@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Hero/Hero.jsx'
-
+import Portfoliol from './Components/Portfolio/Portfolio.jsx'
 function App() {
  
 
@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-   
+      <Portfoliol/>
     </>
   )
 }
