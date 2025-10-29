@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar.jsx'
 import Hero from './Components/Hero/Hero.jsx'
 import Portfoliol from './Components/Portfolio/Portfolio.jsx'
 import About from './Components/Aboutt/About.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 function App() {
  
 
@@ -15,6 +16,7 @@ function App() {
       <Hero/>
       <Portfoliol/>
       <About/>
+      <Footer/>
     </>
   )
 }
