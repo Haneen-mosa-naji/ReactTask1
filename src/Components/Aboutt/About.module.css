@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.About { 
+  margin-top: 40px; 
+  background-color: rgb(26, 188, 156); 
+  width: 100%; 
+  padding-bottom: 80px;
+}
+
+.About h2 { 
+  text-transform: uppercase; 
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  font-size: 50px; 
+  font-weight: 700; 
+  padding-top: 80px; 
+  margin-bottom: 40px; 
+  text-align: center; 
+  color: white; 
+}
+
+.Aboutflex { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+
+  gap: 80px; 
+  color: white; 
+
+}
+
+.About p {
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 22px; 
+  font-weight: 400; 
+  width: 300px; 
+  height: fit-content; 
+  line-height: 1.6;
+}
+
+.FreeDownload { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 50px;
+}
+
+.FreeDownload a {
+  text-decoration: none; 
+  color: white; 
+  padding: 15px 30px; 
+  border: 2px solid white; 
+  text-align: center;
+  font-size: 24px; 
+  font-family: "Times New Roman", Times, serif; 
+
+  transition: all 0.3s ease;
+}
+
+.FreeDownload a:hover { 
+  color: rgb(44, 62, 80); 
+  background-color: white; 
+  transform: scale(1.05); 
+}
+@media (max-width:745px) {
+.About h2 {
+
+    font-size:45px;
+
+}
+
+
+}
+
+@media (max-width:490px) {
+  .About h2 {
+
+    font-size:35px;
+
+}
+
+
+
+}
+
+@media (max-width:445px) {
+.About h2 {
+
+    font-size:30px;
+
+}
+
+  .About p {
+
+    font-size:18px;
+
+}
+}
+
+

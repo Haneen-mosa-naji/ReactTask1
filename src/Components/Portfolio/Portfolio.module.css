@@ -10,6 +10,17 @@
   
     
 
+
+}
+.Portfolio h2 { 
+  text-transform: uppercase; 
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  font-size: 50px; 
+  font-weight: 700; 
+  padding-top: 80px; 
+  margin-bottom: 40px; 
+
+
 }
 .Portfolio img
 {
@@ -33,3 +44,37 @@
     column-gap:10px;
      
 }
+
+
+@media (max-width:745px) {
+.Portfolio h2 {
+
+    font-size:45px;
+
+}
+
+
+}
+
+@media (max-width:490px) {
+  .Portfolio h2 {
+
+    font-size:35px;
+
+}
+
+
+
+}
+
+@media (max-width:445px) {
+.Portfolio h2 {
+
+    font-size:30px;
+
+}
+
+
+}
+
+
